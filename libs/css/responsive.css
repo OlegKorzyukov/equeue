@@ -1,0 +1,41 @@
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 500px) {
+	#header{
+		display:block;
+		height: auto;
+	}
+	.main-form{
+		width: 100%;
+	}
+	.main-date{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.title-page{
+		width: 100%;
+	}
+	.icon-contact{
+		display: flex;
+    	justify-content: center;
+	}
+	.icon{
+		width: 100%;
+	}
+	.icon img{
+		display: block;
+		margin: 0 auto;
+		width: 16%;
+	}
+	.contact{
+		margin: 0 auto;
+		display: block;
+	}
+	.main-input-date h2{
+		text-align: center;
+	}
+	.col-6{
+		width: 100%;
+	}
+}
